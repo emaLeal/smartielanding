@@ -4,15 +4,20 @@ import logo from "/public/Smartie.png";
 
 export default async function MisionComponent() {
   return (
-    <AosComponent data={"fade-up"}>
-      <div className="flex h-screen" id="mision">
-        <div className="w-1/2 flex items-center justify-center">
-          <Image src={logo} width={100} height={100} alt="Logo" />
-          <h1 className="font-bold text-5xl">Nuestra Misión</h1>
+    <AosComponent data={"fade-up"} duration="800">
+      <div className="flex flex-col sm:flex-row h-screen" id="mision">
+        <div className="sm:w-1/2 flex items-center justify-center mt-40 sm:m-0">
+          <Image
+            src={logo}
+            width={100}
+            height={100}
+            alt="Logo"
+          />
+          <h1 className="font-bold text-3xl sm:text-5xl">Nuestra Misión</h1>
         </div>
-        <div className="w-1/2 flex items-center mx-4">
-          <AosComponent data={"zoom-in"} duration="1000">
-            <span>
+        <div className="sm:w-1/2 sm:flex sm:items-center sm:mx-4 mt-8 sm:m-0">
+          <AosComponent data={"zoom-in"} duration="1300">
+            <span className="text-lg sm:text-base">
               Velit mollit minim sunt dolore ad esse est non esse mollit eu non
               non. Enim sit do pariatur irure id ea labore proident magna qui
               deserunt amet anim. Dolore eiusmod veniam ex aliquip veniam

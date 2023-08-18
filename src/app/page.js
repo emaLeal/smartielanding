@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import MainComponent from "@/components/Main";
 import MenuComponent from "@/components/MenuComponent";
 import MisionComponent from "@/components/Mision";
@@ -12,6 +13,7 @@ export default async function HomePage() {
       <MisionComponent />
       <VisionComponent />
       <PreguntasRespuestasComponent />
+      <Footer />
     </main>
   );
 }
