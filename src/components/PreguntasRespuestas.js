@@ -3,6 +3,47 @@ import AosComponent from "./AosComponent";
 import logo from "/public/Smartie.png";
 
 export default async function PreguntasRespuestasComponent() {
+  const preguntas = [
+    {
+      pregunta:
+        "Cuáles son los tipos de eventos corporativos que pueden organizar?",
+      respuesta: "",
+    },
+    {
+      pregunta:
+        "Cómo se llevará a cabo el registro de personas para los eventos?",
+      respuesta: "",
+    },
+    {
+      pregunta: "Qué tipo de sorteos interactivos ofrecen y cómo funcionan?",
+      respuesta: "",
+    },
+    {
+      pregunta:
+        "Pueden adaptarse a diferentes ubicaciones y espacios para eventos?",
+      respuesta: "",
+    },
+    {
+      pregunta:
+        "Tienen experiencia en la gestión de grandes volúmenes de registros de personas?",
+      respuesta: "",
+    },
+    {
+      pregunta:
+        "Qué medidas de seguridad tienen en su sistema de registro para proteger los datos personales de los asistentes?",
+      respuesta: "",
+    },
+    {
+      pregunta:
+        "Pueden personalizar el sistema de registro y el sorteo interactivo con la imagen de mi empresa y mis requisitos de marca?",
+      respuesta: "",
+    },
+    {
+      pregunta:
+        "Cuál es la capacidad máxima de registros y participantes que pueden manejar en un evento?",
+      respuesta: "",
+    },
+  ];
   return (
     <AosComponent data={"zoom-in"} duration="800">
       <article
@@ -17,16 +58,9 @@ export default async function PreguntasRespuestasComponent() {
         </div>
         <div className="sm:w-1/2 sm:flex sm:items-center sm:mx-4 mt-8 sm:m-0">
           <AosComponent data={"fade-right"} duration="1300">
-            <span className="text-lg sm:text-base">
-              Velit mollit minim sunt dolore ad esse est non esse mollit eu non
-              non. Enim sit do pariatur irure id ea labore proident magna qui
-              deserunt amet anim. Dolore eiusmod veniam ex aliquip veniam
-              incididunt eu labore laborum adipisicing dolore fugiat elit.
-              Consectetur non occaecat do nisi non elit labore reprehenderit qui
-              officia cillum. Sunt nulla mollit ullamco enim qui do consectetur
-              proident sint veniam. Velit cillum non elit non tempor deserunt
-              officia nostrud aute labore ex Lorem occaecat.
-            </span>
+            {preguntas.map((pregunta, index) => {
+              return <p key={index} className="font-bold py-2">{pregunta.pregunta}</p>;
+            })}
           </AosComponent>
         </div>
       </article>

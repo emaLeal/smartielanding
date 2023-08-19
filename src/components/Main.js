@@ -13,7 +13,7 @@ export default async function MainComponent() {
         </div>
         <div className="sm:w-1/2 sm:flex sm:items-center">
           <AosComponent data={"fade-right"} duration="1500">
-            <h1 className="font-bold text-7xl text-center underline underline-offset-4">SMARTie</h1>
+            <h1 className="font-bold text-7xl text-center underline text-teal-300">SMART<span className="text-sky-400">ie</span></h1>
           </AosComponent>
         </div>
       </div>

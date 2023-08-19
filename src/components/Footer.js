@@ -17,11 +17,11 @@ const Footer = () => {
           </Link>
         </h3>
         <h3>
-          Pagina de Eventoss{" "}
+          Pagina de Eventos{" "}
           <Link
             href="https://eventos.smartie.com.co"
             target="_blank"
-            className="ml-20 font-bold underline text-blue-800 hover:scale-110 transition-transform"
+            className="ml-24 font-bold underline text-blue-800 hover:scale-110 transition-transform"
           >
             Click Aqui
           </Link>
