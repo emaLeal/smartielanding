@@ -13,14 +13,14 @@ export default async function VisionComponent() {
         <div className="sm:w-1/2 sm:flex sm:items-center sm:mx-4 mt-8 sm:m-0">
           <AosComponent data={"fade-right"} duration="1300">
             <span className="text-lg sm:text-base">
-              Velit mollit minim sunt dolore ad esse est non esse mollit eu non
-              non. Enim sit do pariatur irure id ea labore proident magna qui
-              deserunt amet anim. Dolore eiusmod veniam ex aliquip veniam
-              incididunt eu labore laborum adipisicing dolore fugiat elit.
-              Consectetur non occaecat do nisi non elit labore reprehenderit qui
-              officia cillum. Sunt nulla mollit ullamco enim qui do consectetur
-              proident sint veniam. Velit cillum non elit non tempor deserunt
-              officia nostrud aute labore ex Lorem occaecat.
+              Nuestra visión es ser líderes en la provisión de servicios
+              integrales de eventos corporativos, fiestas de fin de año y
+              soluciones de registro, sorteos interactivos, datos y conexión.
+              Buscamos crear experiencias únicas, conectadas, eficientes,
+              fáciles y seguras. Utilizamos la tecnología de vanguardia para
+              ofrecer eventos inolvidables y una conectividad confiable que
+              enriquezca la participación de los asistentes, garantizando una
+              experiencia eficiente, fácil y segura en cada interacción.
             </span>
           </AosComponent>
         </div>

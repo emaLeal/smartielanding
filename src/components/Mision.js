@@ -7,25 +7,22 @@ export default async function MisionComponent() {
     <AosComponent data={"fade-up"} duration="800">
       <article className="flex flex-col sm:flex-row h-screen" id="mision">
         <div className="sm:w-1/2 flex items-center justify-center mt-40 sm:m-0">
-          <Image
-            src={logo}
-            width={100}
-            height={100}
-            alt="Logo"
-          />
+          <Image src={logo} width={100} height={100} alt="Logo" />
           <h2 className="font-bold text-3xl sm:text-5xl">Nuestra Misión</h2>
         </div>
         <div className="sm:w-1/2 sm:flex sm:items-center sm:mx-4 mt-8 sm:m-0">
           <AosComponent data={"zoom-in"} duration="1300">
             <span className="text-lg sm:text-base">
-              Velit mollit minim sunt dolore ad esse est non esse mollit eu non
-              non. Enim sit do pariatur irure id ea labore proident magna qui
-              deserunt amet anim. Dolore eiusmod veniam ex aliquip veniam
-              incididunt eu labore laborum adipisicing dolore fugiat elit.
-              Consectetur non occaecat do nisi non elit labore reprehenderit qui
-              officia cillum. Sunt nulla mollit ullamco enim qui do consectetur
-              proident sint veniam. Velit cillum non elit non tempor deserunt
-              officia nostrud aute labore ex Lorem occaecat.
+              Nuestra misión es brindar servicios completos y personalizados que
+              abarquen eventos corporativos, fiestas de fin de año, registros
+              eficientes, sorteos interactivos y soluciones de datos y conexión.
+              Nos comprometemos a proporcionar experiencias excepcionales,
+              impulsadas por la innovación y la excelencia en la entrega de
+              servicios, con un enfoque en la eficiencia, la facilidad y la
+              seguridad. A través de nuestra dedicación a la calidad, la
+              atención al detalle y la tecnología avanzada, nos esforzamos por
+              crear conexiones significativas entre las personas y garantizar
+              una experiencia fluida, fácil y segura en cada paso del proceso.
             </span>
           </AosComponent>
         </div>
