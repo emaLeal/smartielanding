@@ -6,20 +6,35 @@ const Footer = () => {
   return (
     <footer className="w-screen bg-emerald-600 p-4 flex justify-between">
       <div className="hidden sm:block sm:w-1/2">
-        Ex tempor minim sint quis nostrud adipisicing magna reprehenderit Lorem
-        et aliquip enim. Veniam qui nisi mollit eu enim commodo et tempor amet
-        ullamco et labore cillum cupidatat. Dolor cupidatat laborum ex est velit
-        cupidatat. Duis incididunt do qui tempor exercitation dolore qui elit.
-        Tempor in fugiat deserunt ut ut qui elit velit qui laboris ea eu labore.
-        Aliquip cillum aliqua aliqua ea sint laboris aliquip proident ex sunt.
+        <h3>
+          Pagina de Administrador
+          <Link
+            href="https://admin.smartie.com.co"
+            target="_blank"
+            className="ml-6 font-bold underline text-blue-800 hover:scale-110 transition-transform"
+          >
+            Click Aqui
+          </Link>
+        </h3>
+        <h3>
+          Pagina de Eventoss{" "}
+          <Link
+            href="https://eventos.smartie.com.co"
+            target="_blank"
+            className="ml-20 font-bold underline text-blue-800 hover:scale-110 transition-transform"
+          >
+            Click Aqui
+          </Link>
+        </h3>
       </div>
       <div className="w-full sm:w-2 flex justify-center sm:justify-around items-center">
         <Link href="https://facebook.com/" target="_blank">
           <ButtonComponent
             icon="pi pi-facebook"
             rounded
+            raised
             tooltip="Facebook"
-            className="mx-2 sm:m-0"
+            className="mx-2 sm:m-0 hover:scale-110 transition-transform"
             tooltipOptions={{ position: "left" }}
           />
         </Link>
@@ -29,7 +44,7 @@ const Footer = () => {
             rounded
             raised
             severity="info"
-            className="mx-2 sm:m-0"
+            className="mx-2 sm:m-0 hover:scale-110 transition-transform"
             tooltipOptions={{ position: "left" }}
             tooltip="Twitter"
           />
@@ -42,7 +57,7 @@ const Footer = () => {
             tooltipOptions={{ position: "left" }}
             tooltip="Whatsapp"
             severity="success"
-            className="mx-2 sm:m-0"
+            className="mx-2 sm:m-0 hover:scale-110 transition-transform"
           />
         </Link>
         <Link href="https://www.instagram.com/" target="_blank">
@@ -53,7 +68,7 @@ const Footer = () => {
             tooltipOptions={{ position: "left" }}
             tooltip="Instagram"
             severity="help"
-            className="mx-2 sm:m-0"
+            className="mx-2 sm:m-0 hover:scale-110 transition-transform"
           />
         </Link>
       </div>
