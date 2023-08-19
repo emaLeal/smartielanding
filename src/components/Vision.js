@@ -5,10 +5,10 @@ import logo from "/public/Smartie.png";
 export default async function VisionComponent() {
   return (
     <AosComponent data={"zoom-in"} duration="800">
-      <div className="flex flex-col sm:flex-row h-screen" id="vision">
+      <article className="flex flex-col sm:flex-row h-screen" id="vision">
         <div className="sm:w-1/2 flex items-center justify-center mt-44 sm:m-0">
           <Image src={logo} width={100} height={100} alt="Logo" />
-          <h1 className="font-bold text-3xl sm:text-5xl">Nuestra Visión</h1>
+          <h2 className="font-bold text-3xl sm:text-5xl">Nuestra Visión</h2>
         </div>
         <div className="sm:w-1/2 sm:flex sm:items-center sm:mx-4 mt-8 sm:m-0">
           <AosComponent data={"fade-right"} duration="1300">
@@ -24,7 +24,7 @@ export default async function VisionComponent() {
             </span>
           </AosComponent>
         </div>
-      </div>
+      </article>
     </AosComponent>
   );
 }

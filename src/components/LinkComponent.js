@@ -14,7 +14,7 @@ const LinkComponent = ({ route }) => {
       onClick={(event) =>
         handleNavigationClick(event, route.redirect.substring(1))
       }
-      className="underline decoration-wavy underline-offset-4 font-bold text-lg text-cyan-700"
+      className="underline decoration-wavy underline-offset-4 font-bold text-lg text-cyan-950"
     >
       {route.label}
     </Link>

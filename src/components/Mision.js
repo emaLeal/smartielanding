@@ -5,7 +5,7 @@ import logo from "/public/Smartie.png";
 export default async function MisionComponent() {
   return (
     <AosComponent data={"fade-up"} duration="800">
-      <div className="flex flex-col sm:flex-row h-screen" id="mision">
+      <article className="flex flex-col sm:flex-row h-screen" id="mision">
         <div className="sm:w-1/2 flex items-center justify-center mt-40 sm:m-0">
           <Image
             src={logo}
@@ -13,7 +13,7 @@ export default async function MisionComponent() {
             height={100}
             alt="Logo"
           />
-          <h1 className="font-bold text-3xl sm:text-5xl">Nuestra Misión</h1>
+          <h2 className="font-bold text-3xl sm:text-5xl">Nuestra Misión</h2>
         </div>
         <div className="sm:w-1/2 sm:flex sm:items-center sm:mx-4 mt-8 sm:m-0">
           <AosComponent data={"zoom-in"} duration="1300">
@@ -29,7 +29,7 @@ export default async function MisionComponent() {
             </span>
           </AosComponent>
         </div>
-      </div>
+      </article>
     </AosComponent>
   );
 }

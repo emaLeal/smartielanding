@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="w-screen bg-emerald-400 p-4 flex justify-between">
+    <footer className="w-screen bg-emerald-600 p-4 flex justify-between">
       <div className="hidden sm:block sm:w-1/2">
         Ex tempor minim sint quis nostrud adipisicing magna reprehenderit Lorem
         et aliquip enim. Veniam qui nisi mollit eu enim commodo et tempor amet

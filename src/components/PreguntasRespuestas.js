@@ -5,15 +5,15 @@ import logo from "/public/Smartie.png";
 export default async function PreguntasRespuestasComponent() {
   return (
     <AosComponent data={"zoom-in"} duration="800">
-      <div
+      <article
         className="flex flex-col sm:flex-row h-screen"
         id="preguntasrespuestas"
       >
         <div className="sm:w-1/2 flex items-center justify-center mt-44 sm:m-0">
           <Image src={logo} width={100} height={100} alt="Logo" />
-          <h1 className="font-bold text-2xl sm:text-3xl">
+          <h2 className="font-bold text-2xl sm:text-3xl">
             Preguntas y Respuestas
-          </h1>
+          </h2>
         </div>
         <div className="sm:w-1/2 sm:flex sm:items-center sm:mx-4 mt-8 sm:m-0">
           <AosComponent data={"fade-right"} duration="1300">
@@ -29,7 +29,7 @@ export default async function PreguntasRespuestasComponent() {
             </span>
           </AosComponent>
         </div>
-      </div>
+      </article>
     </AosComponent>
   );
 }
