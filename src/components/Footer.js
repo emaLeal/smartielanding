@@ -11,7 +11,7 @@ const Footer = () => {
           <Link
             href="https://admin.smartie.com.co"
             target="_blank"
-            className="ml-6 font-bold underline text-blue-300 hover:scale-110 transition-transform"
+            className="ml-4 font-bold underline text-blue-300 hover:scale-110 transition-transform"
           >
             Click Aqui
           </Link>
@@ -21,7 +21,7 @@ const Footer = () => {
           <Link
             href="https://eventos.smartie.com.co"
             target="_blank"
-            className="ml-24 font-bold underline text-blue-300 hover:scale-110 transition-transform"
+            className="ml-16 font-bold underline text-blue-300 hover:scale-110 transition-transform"
           >
             Click Aqui
           </Link>
