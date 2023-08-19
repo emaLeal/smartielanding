@@ -4,14 +4,14 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="w-screen bg-emerald-600 p-4 flex justify-between">
+    <footer className="w-screen bg-gradient-to-r from-indigo-500 p-4 flex justify-between">
       <div className="hidden sm:block sm:w-1/2">
         <h3>
           Pagina de Administrador
           <Link
             href="https://admin.smartie.com.co"
             target="_blank"
-            className="ml-6 font-bold underline text-blue-800 hover:scale-110 transition-transform"
+            className="ml-6 font-bold underline text-blue-300 hover:scale-110 transition-transform"
           >
             Click Aqui
           </Link>
@@ -21,7 +21,7 @@ const Footer = () => {
           <Link
             href="https://eventos.smartie.com.co"
             target="_blank"
-            className="ml-24 font-bold underline text-blue-800 hover:scale-110 transition-transform"
+            className="ml-24 font-bold underline text-blue-300 hover:scale-110 transition-transform"
           >
             Click Aqui
           </Link>
